@@ -13,13 +13,13 @@ class ShoppingListTest extends TestCase {
         $this->assertEquals($resultado=["pera", "uva"], $resultado);
     }
 
-    // public function testRemoveItem() {//verifica se o item foi removido da lista
-    //     $shoppingList = new ShoppingList();
-    //     $shoppingList->addItem('pera');
-    //     $shoppingList->removeItem(1);
-    //     $resultado = $shoppingList->getItems();
-    //     $this->assertEquals(null, $resultado);
-    // }
+    public function testRemoveItem() {//verifica se o item foi removido da lista
+        $shoppingList = new ShoppingList();
+        $shoppingList->addItem('pera');
+        $shoppingList->removeItem(1);
+        $resultado = $shoppingList->getItems();
+        $this->assertEquals($resultado=[], $resultado);
+    }
 
     // public function testItemDuplicado() {//verifica se há itens dublicados na lista
     //     $shoppingList = new ShoppingList();
