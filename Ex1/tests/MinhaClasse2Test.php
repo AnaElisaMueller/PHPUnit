@@ -6,7 +6,7 @@ require_once 'src/MinhaClasse.php';
 
 class MinhaClasse2Test extends TestCase {
 
-    public function testMaisSoma() {//se retorna 
+    public function testMaisSoma() {//se retorna corretamente a soma de dois valores
         $minhaClasse = new MinhaClasse();
         $soma1 = $minhaClasse->somar(-1, -5);
         $soma2 = $minhaClasse->somar(5, 0);
