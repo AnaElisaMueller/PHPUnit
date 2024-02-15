@@ -1,0 +1,15 @@
+1. Interpretação:
+
+a) Qual é o propósito da classe ShoppingList?
+R.: É uma classe com o propósito de fazer uma lista de compras que simula uma da realidade.Contem métodos para fazer alterações na lista.
+
+b) Quais são os métodos disponíveis na classe ShoppingList e o que cada um
+deles faz?
+R.: Os métodos disponíveis são de adicionar(um item), remover(um item) e mostrar a lista total.
+
+
+c) Explique o que é testado no método testAddItem().
+R.: É testado se está removendo um item da lista, verificando se o resultado está de acordo com o esperado. No teste ele adiciona um item, pega a lista total e verifica o resultado.
+
+d) Qual é a finalidade do método testRemoveItem() e o que ele verifica?
+R.: A finalidade é verificar se um item é excluido da lista. No teste ele remove um item, pega a lista total e verifica o resultado.
